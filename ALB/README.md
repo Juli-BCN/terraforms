@@ -11,7 +11,7 @@ Deploy an App Load Balancer in AWS
 
 > git clone https://github.com/Juli-BCN/terraforms.git
 
-> cd terraforms/alb
+> cd terraforms/ALB
 
 > terraform init
 
