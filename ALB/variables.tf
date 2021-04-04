@@ -48,8 +48,12 @@ variable "egress_cidr_blocks" {
 ##################################################################################
 # VARIABLES EC2
 ##################################################################################
-variable "sec_group" {
+variable "sec_group_name" {
   default = "SG-ECS-DMZ"
+}
+
+variable "sec_group" {
+  default = "sg-0f37f90aab81e912c"
 }
 
 variable "kms_keys_name" {
